@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Fitness Coaching by [Your Name]</title>
+    <title>Online Fitness Coaching by Weston McClintock</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
-        <h1>Get Fit with [Your Name]</h1>
+        <h1>Get Fit with Weston McClintock</h1>
         <p>Your Personal Guide to Fitness, Health, and Well-being</p>
         <button onclick="document.getElementById('contact').scrollIntoView()">Get Started</button>
     </header>
@@ -18,7 +18,7 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm [Your Name], a certified personal trainer with [X years] of experience. My passion is helping people achieve their fitness goals in a realistic and sustainable way.</p>
+        <p>Hi, I'm Weston McClintock, a personal Online Coach with experience in strength and hypertrophy. I have competed in powerlifting and arm wrelsting. My passion is helping people achieve their fitness goals in a realistic and sustainable way.</p>
     </section>
 
     <!-- Services Section -->
@@ -37,18 +37,21 @@
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Ready to start? Reach out to learn more about my programs and pricing!</p>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
+        <form
+  action="https://formspree.io/f/mldenovd"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
     </section>
 
     <!-- Footer Section -->
