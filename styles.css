@@ -1,0 +1,141 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light gray text for readability on dark background */
+    background: #121212; /* Black background */
+}
+
+/* Header Section Styling */
+header {
+    background: linear-gradient(135deg, #FF8C42, #FF3E55);
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+header button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #FF8C42;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+header button:hover {
+    background: #FF3E55;
+    color: #fff;
+}
+
+/* Section Styling */
+section {
+    padding: 2.5rem 1.5rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background: #1a1a1a; /* Dark gray for sections */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 1.5rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #FF3E55;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    color: #cccccc; /* Light gray for paragraph text */
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    background: #FF8C42;
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+/* Contact Section Styling */
+#contact form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    font-size: 0.9rem;
+    color: #FF3E55;
+    margin-bottom: 0.3rem;
+}
+
+#contact input, #contact textarea {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #333; /* Dark background for input fields */
+    color: #e0e0e0;
+}
+
+#contact button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #FF3E55;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact button:hover {
+    background: #FF8C42;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
